@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Radio widget" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Widget</title>
+  </head>
+  <body>
+    <div class="container">
+      <button class="back__btn">
+        <img class="back__img" src="png/back-arrow.png" alt="back button" />
+      </button>
+      <button class="switch__btn">
+        <img class="switch__img" src="png/switch.png" alt="switch button" />
+      </button>
+
+      <h1 class="stations-header">STATIONS</h1>
+    </div>
+
+    <div class="station-list">
+      <ul class="station-list--active">
+        <li>Puttin FM</li>
+        <li>Dribble FM</li>
+        <li>Puttin FM</li>
+        <li>Doge FM</li>
+        <li>Balladas FM</li>
+        <li>Maximum FM</li>
+      </ul>
+
+      <ul class="fm--active">
+        <li>66,1</li>
+        <li>101,5</li>
+        <li>105,6</li>
+        <li>92,6</li>
+        <li>98,1</li>
+        <li>99,6</li>
+      </ul>
+    </div>
+
+    <div class="currently-playing">
+      <h6>CURRENTLY PLAYING</h6>
+      <h4 class="currently-playing--active">Dribble FM</h4>
+    </div>
+  </body>
+</html>

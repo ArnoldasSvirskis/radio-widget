@@ -1,0 +1,15 @@
+{
+  "name": "radiowidget",
+  "version": "1.0.0",
+  "description": "Simple radio widget for changing stations",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist "
+  },
+  "author": "Arnoldas Svirskis",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
